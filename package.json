@@ -1,0 +1,40 @@
+{
+  "name": "site",
+  "description": "@aranajhonny website",
+  "dependencies": {
+    "axios": "latest",
+    "express": "latest",
+    "lru-cache": "latest",
+    "module-alias": "latest",
+    "next": "canary",
+    "raven": "latest",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "sw-precache-webpack-plugin": "latest"
+  },
+  "now": {
+    "alias": "https://my-site.now.sh"
+  },
+  "license": "MIT",
+  "repository": "aranajhonny/site",
+  "lint-staged": {
+    "*.js": [
+      "prettier --single-quote --no-semi --write *.js pages/**/*.js components/**/*.js *.js",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "dev": "rm -rf dist && NODE_ENV=development node server",
+    "build": "NODE_ENV=production next build",
+    "deploy": "now --public && now alias",
+    "test":
+      "prettier --single-quote --no-semi --write pages/**/*.js components/**/*.js *.js",
+    "start": "NODE_ENV=production node server.js",
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "husky": "latest",
+    "lint-staged": "latest",
+    "prettier": "latest"
+  }
+}
