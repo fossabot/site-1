@@ -15,6 +15,9 @@
   "now": {
     "alias": "https://my-site.now.sh"
   },
+  "engines": {
+    "node": "8.9.4"
+  },
   "license": "MIT",
   "repository": "aranajhonny/site",
   "lint-staged": {
