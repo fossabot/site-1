@@ -6,17 +6,16 @@
     "express": "latest",
     "lru-cache": "latest",
     "module-alias": "latest",
-    "next": "canary",
+    "next": "latest",
     "raven": "latest",
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
-    "sw-precache-webpack-plugin": "latest"
+    "react": "latest",
+    "react-dom": "latest"
   },
   "now": {
     "alias": "https://my-site.now.sh"
   },
   "engines": {
-    "node": "8.9.4"
+    "node": "10.10.0"
   },
   "license": "MIT",
   "repository": "aranajhonny/site",
