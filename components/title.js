@@ -18,4 +18,4 @@ export default ({ children }) => (
       }
     `}</style>
   </h1>
-)
+);

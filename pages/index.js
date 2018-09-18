@@ -1,12 +1,12 @@
-import Link from 'next/link'
-import H1 from '../components/h1'
-import H2 from '../components/h2'
-import UL from '../components/ul'
-import LI from '../components/li'
-import Pa from '../components/pa'
-import P from '../components/p'
-import Wrapper from '../components/wrapper'
-import Strong from '../components/strong'
+import Link from "next/link";
+import H1 from "../components/h1";
+import H2 from "../components/h2";
+import UL from "../components/ul";
+import LI from "../components/li";
+import Pa from "../components/pa";
+import P from "../components/p";
+import Wrapper from "../components/wrapper";
+import Strong from "../components/strong";
 
 export default () => (
   <Wrapper>
@@ -14,13 +14,13 @@ export default () => (
     <UL>
       <LI>
         <Pa>
-          Email:{' '}
+          Email:{" "}
           <a href="mailto:aranajhonny@outlook.com">aranajhonny@outlook.com</a>
         </Pa>
       </LI>
       <LI>
         <Pa>
-          Twitter:{' '}
+          Twitter:{" "}
           <a target="_blank" href="https://twitter.com/aranajhonny">
             @aranajhonny
           </a>
@@ -28,7 +28,7 @@ export default () => (
       </LI>
       <LI>
         <Pa>
-          Github:{' '}
+          Github:{" "}
           <a target="_blank" href="https://github.com/aranajhonny">
             aranajhonny
           </a>
@@ -42,7 +42,7 @@ export default () => (
         <Pa>
           <a target="_blank" href="https://github.com/aranajhonny/ig-upload">
             <Strong>ig-upload</Strong>
-          </a>{' '}
+          </a>{" "}
           A tiny command line tool for upload images to instagram (2017)
         </Pa>
       </LI>
@@ -108,4 +108,4 @@ export default () => (
       }
     `}</style>
   </Wrapper>
-)
+);

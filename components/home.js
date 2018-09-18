@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export default () => (
   <div className="home">
@@ -29,7 +29,7 @@ export default () => (
       }
     `}</style>
   </div>
-)
+);
 const Code = ({ children }) => (
   <strong>
     {children}
@@ -45,13 +45,13 @@ const Code = ({ children }) => (
         text-decoration: none;
       }
       strong:before {
-        content: '<';
+        content: "<";
         opacity: 0.5;
       }
       strong:after {
-        content: ' /> ';
+        content: " /> ";
         opacity: 0.5;
       }
     `}</style>
   </strong>
-)
+);

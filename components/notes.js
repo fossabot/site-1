@@ -1,4 +1,4 @@
-import P from './p'
+import P from "./p";
 
 export const FootNotes = ({ children }) => (
   <div>
@@ -6,7 +6,7 @@ export const FootNotes = ({ children }) => (
     <style jsx>{`
       div::before {
         width: 200px;
-        content: ' ';
+        content: " ";
         margin: auto;
         border-top: 1px solid #ccc;
         padding-top: 40px;
@@ -15,7 +15,7 @@ export const FootNotes = ({ children }) => (
       }
     `}</style>
   </div>
-)
+);
 
 export const Ref = ({ id }) => (
   <a href={`#f${id}`} id={`s${id}`}>
@@ -29,14 +29,14 @@ export const Ref = ({ id }) => (
       }
     `}</style>
   </a>
-)
+);
 
 export const Note = ({ id, children }) => (
   <P>
-    {id}.{' '}
+    {id}.{" "}
     <a href={`#s${id}`} id={`f${id}`}>
       ^
-    </a>{' '}
+    </a>{" "}
     {children}
     <style jsx>{`
       a {
@@ -44,4 +44,4 @@ export const Note = ({ id, children }) => (
       }
     `}</style>
   </P>
-)
+);

@@ -1,5 +1,5 @@
 export default ({ desc, href, children, wide }) => (
-  <div className={wide && 'wide'}>
+  <div className={wide && "wide"}>
     {href ? (
       <a href={href} target="_blank">
         {children}
@@ -26,7 +26,7 @@ export default ({ desc, href, children, wide }) => (
       }
       .wide::before {
         width: 10000%;
-        content: '';
+        content: "";
         left: -1000px;
         height: 100%;
         position: absolute;
@@ -35,4 +35,4 @@ export default ({ desc, href, children, wide }) => (
       }
     `}</style>
   </div>
-)
+);

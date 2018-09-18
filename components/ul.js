@@ -7,4 +7,4 @@ export default ({ children }) => (
       }
     `}</style>
   </ul>
-)
+);

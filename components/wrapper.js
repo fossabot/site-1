@@ -3,13 +3,13 @@ export default ({ children }) => (
   <div className="wrapper">
     {children}
     <style jsx global>{`
-      @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+      @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
       * {
         margin: 0;
         box-sizing: border-box;
       }
       body {
-        font-family: 'Inconsolata', monospace;
+        font-family: "Inconsolata", monospace;
         color: #000;
         -webkit-font-smoothing: antialiased;
         text-rendering: optimizeLegibility;
@@ -39,4 +39,4 @@ export default ({ children }) => (
       }
     `}</style>
   </div>
-)
+);

@@ -1,18 +1,18 @@
-import Head from 'next/head'
-import dynamic from 'next/dynamic'
-import { FootNotes, Note, Ref } from '../components/notes'
-import Image from '../components/image'
-import H1 from '../components/h1'
-import H2 from '../components/h2'
-import UL from '../components/ul'
-import LI from '../components/li'
-import P from '../components/p'
-import Home from '../components/home'
-import Pa from '../components/pa'
-import Strong from '../components/strong'
-import Title from '../components/title'
-import Wrapper from '../components/wrapper'
-import Figure from '../components/figure'
+import Head from "next/head";
+import dynamic from "next/dynamic";
+import { FootNotes, Note, Ref } from "../components/notes";
+import Image from "../components/image";
+import H1 from "../components/h1";
+import H2 from "../components/h2";
+import UL from "../components/ul";
+import LI from "../components/li";
+import P from "../components/p";
+import Home from "../components/home";
+import Pa from "../components/pa";
+import Strong from "../components/strong";
+import Title from "../components/title";
+import Wrapper from "../components/wrapper";
+import Figure from "../components/figure";
 
 export default () => (
   <Wrapper>
@@ -171,4 +171,4 @@ export default () => (
       }
     `}</style>
   </Wrapper>
-)
+);

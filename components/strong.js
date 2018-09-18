@@ -3,13 +3,13 @@ export default ({ children }) => (
     {children}
     <style jsx>{`
       strong:before {
-        content: '<';
+        content: "<";
         opacity: 0.5;
       }
       strong:after {
-        content: ' /> ';
+        content: " /> ";
         opacity: 0.5;
       }
     `}</style>
   </strong>
-)
+);

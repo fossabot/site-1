@@ -9,4 +9,4 @@ export default ({ width, src, radius }) => (
       }
     `}</style>
   </div>
-)
+);
