@@ -21,7 +21,7 @@
   "repository": "aranajhonny/site",
   "lint-staged": {
     "*.js": [
-      "prettier --single-quote --no-semi --write *.js pages/**/*.js components/**/*.js *.js",
+      "prettier --write *.js pages/**/*.js components/**/*.js *.js",
       "git add"
     ]
   },
