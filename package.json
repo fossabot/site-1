@@ -20,12 +20,9 @@
     ]
   },
   "scripts": {
-    "dev": "rm -rf dist && NODE_ENV=development node server",
-    "build": "NODE_ENV=production next build",
-    "test":
-      "npm run build && prettier --single-quote --no-semi --write pages/**/*.js components/**/*.js *.js",
-    "start": "NODE_ENV=production node server.js",
-    "precommit": "lint-staged"
+    "build": "next build",
+    "dev": "next",
+    "now-build": "next build"
   },
   "devDependencies": {
     "husky": "latest",
