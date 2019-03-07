@@ -22,7 +22,6 @@
   "scripts": {
     "dev": "rm -rf dist && NODE_ENV=development node server",
     "build": "NODE_ENV=production next build",
-    "deploy": "now --public && now alias",
     "test":
       "npm run build && prettier --single-quote --no-semi --write pages/**/*.js components/**/*.js *.js",
     "start": "NODE_ENV=production node server.js",
