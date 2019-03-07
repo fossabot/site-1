@@ -6,10 +6,10 @@
     "express": "latest",
     "lru-cache": "latest",
     "module-alias": "latest",
-    "next": "latest",
+    "next": "canary",
     "raven": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "react": "16.8.4",
+    "react-dom": "16.8.4"
   },
   "now": {
     "alias": "https://my-site.now.sh"
