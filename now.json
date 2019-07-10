@@ -1,6 +1,7 @@
 {
     "version": 2,
     "name": "criollo",
+    "regions": ["all"],
     "builds": [
         { "src": "package.json", "use": "@now/next" }
     ]

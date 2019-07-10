@@ -2,14 +2,14 @@
   "name": "site",
   "description": "@aranajhonny website",
   "dependencies": {
-    "axios": "latest",
-    "express": "latest",
-    "lru-cache": "latest",
-    "module-alias": "latest",
-    "next": "canary",
-    "raven": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "axios": "*",
+    "express": "*",
+    "lru-cache": "*",
+    "module-alias": "*",
+    "next": "*",
+    "raven": "*",
+    "react": "*",
+    "react-dom": "*"
   },
   "license": "MIT",
   "repository": "aranajhonny/site",
@@ -25,8 +25,8 @@
     "now-build": "next build"
   },
   "devDependencies": {
-    "husky": "latest",
-    "lint-staged": "latest",
-    "prettier": "latest"
+    "husky": "*",
+    "lint-staged": "*",
+    "prettier": "*"
   }
 }
