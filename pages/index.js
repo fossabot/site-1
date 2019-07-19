@@ -4,7 +4,6 @@ import H2 from "../components/h2";
 import UL from "../components/ul";
 import LI from "../components/li";
 import Pa from "../components/pa";
-import P from "../components/p";
 import Wrapper from "../components/wrapper";
 import Strong from "../components/strong";
 

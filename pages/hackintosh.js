@@ -22,7 +22,7 @@ export default () => (
     </Head>
 
     <Figure>
-      <Image src="https://res.cloudinary.com/aranajhonny/image/upload/v1497476227/fun_e92gtn.png" />
+      <Image src="https://res.cloudinary.com/aranajhonny/image/upload/v1497476227/fun_e92gtn.webp" />
     </Figure>
     <Title> My experience using hackintosh low-end PC for 3 years.</Title>
 
@@ -45,7 +45,7 @@ export default () => (
       computer and it did not have support.
     </P>
     <Figure desc="Reference image of kernel panic.">
-      <Image src="https://res.cloudinary.com/aranajhonny/image/upload/v1497476218/301n3aw_bysabg.jpg" />
+      <Image src="https://res.cloudinary.com/aranajhonny/image/upload/v1497476218/301n3aw_bysabg.webp" />
     </Figure>
     <P>
       After reading and trying several times, it worked!, At that moment the
@@ -53,7 +53,7 @@ export default () => (
       computer with so few resources.
     </P>
     <Figure desc="Mac OS X Mavericks by Niresh 2014~2015">
-      <Image src="https://res.cloudinary.com/aranajhonny/image/upload/v1497476202/mavericks_aq0v4c.jpg" />
+      <Image src="https://res.cloudinary.com/aranajhonny/image/upload/v1497476202/mavericks_aq0v4c.webp" />
     </Figure>
     <P>
       Later on I got to read a lot about the Kexts that basically are the
@@ -69,7 +69,7 @@ export default () => (
       files, but in the end it worked fine But consumed half of my memory.
     </P>
     <Figure desc="Mac OS X Yosemite by Niresh 2015~2016">
-      <Image src="https://res.cloudinary.com/aranajhonny/image/upload/v1497476299/yosemite_mp3mbb.jpg" />
+      <Image src="https://res.cloudinary.com/aranajhonny/image/upload/v1497476299/yosemite_mp3mbb.webp" />
     </Figure>
     <P>
       That version 10.10.1 used for a long time almost 1 year, then the time
@@ -78,7 +78,7 @@ export default () => (
       complicated, but not impossible.
     </P>
     <Figure desc="Mac OS X Capitan 2016~2017">
-      <Image src="https://res.cloudinary.com/aranajhonny/image/upload/v1497476495/capitan_url6gh.png" />
+      <Image src="https://res.cloudinary.com/aranajhonny/image/upload/v1497476495/capitan_url6gh.webp" />
     </Figure>
     <P>
       After using this version for a long time, my video card stopped working,
@@ -96,7 +96,7 @@ export default () => (
     </P>
 
     <Figure desc="Mac OS X Yosemite 2017~Present">
-      <Image src="https://res.cloudinary.com/aranajhonny/image/upload/v1497476398/now_wyce2z.png" />
+      <Image src="https://res.cloudinary.com/aranajhonny/image/upload/v1497476398/now_wyce2z.webp" />
     </Figure>
 
     <P>
